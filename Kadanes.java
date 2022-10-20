@@ -18,9 +18,9 @@ public class Kadanes {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int A[]=new int [n];
-        for(int i=0;i<n;i++)
+        for(int j=0;j<n;j++)
         {
-            A[i]=sc.nextInt();
+            A[j]=sc.nextInt();
         }
         Kadanes(A);
     }

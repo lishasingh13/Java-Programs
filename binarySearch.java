@@ -31,7 +31,7 @@ public class binarySearch {
             A[i]=sc.nextInt();
         }
         int index=search(A,key);
-        System.out.println("The index is : "+index);
+        System.out.println("The index is : " +index);
     }
     
 }
